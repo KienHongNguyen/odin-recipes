@@ -14,6 +14,12 @@ body {
     margin-bottom: 50px;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Flan */
 
 .flan img {
@@ -21,16 +27,17 @@ body {
 }
 
 div.flan {
-    width: 800px;
+    width: 1000px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 div.container {
     text-align: center;
     font-size: 40px;
     padding: 15px 20px;
-    margin-bottom: 50px;
+    margin: 20px;
 }
 
 /* Lasagna */
@@ -40,7 +47,7 @@ div.container {
 }
 
 div.lasagna {
-    width: 800px;
+    width: 1000px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -49,6 +56,7 @@ div.container {
     text-align: center;
     font-size: 40px;
     padding: 15px 20px;
+    margin: 20px;
 }
 
 /* Thịt Kho */
@@ -58,7 +66,7 @@ div.container {
 }
 
 div.thit {
-    width: 800px;
+    width: 1000px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -67,4 +75,5 @@ div.container {
     text-align: center;
     font-size: 40px;
     padding: 15px 20px;
+    margin: 20px;
 }
