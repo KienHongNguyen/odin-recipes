@@ -2,36 +2,69 @@ body {
     padding: 20px;
 }
 
+/* Title */
+
 .title {
     margin: auto;
+    text-align: center;
 }
 
 .content {
     font-size: 20px;
+    margin-bottom: 50px;
 }
 
-.flan {
-    font-size: 20px;
-}
+/* Flan */
 
 .flan img {
-    width: 200px;
-    height: 300px;
-
+    width: 100%;
 }
 
 div.flan {
-    width: 200px;
+    width: 800px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-div.container {
-    text-align: center;
-    padding: 10px 20px;
 }
 
+div.container {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 20px;
+    margin-bottom: 50px;
+}
 
-.list {
-    margin-left: 20px;
+/* Lasagna */
+
+.lasagna img {
+    width: 100%;
+}
+
+div.lasagna {
+    width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 20px;
+}
+
+/* Thịt Kho */
+
+.thit img {
+    width: 100%;
+}
+
+div.thit {
+    width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 20px;
 }
